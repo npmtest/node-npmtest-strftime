@@ -1,7 +1,10 @@
-# test coverage for  [strftime (v0.10.0)](http://samhuri.net/proj/strftime)  [![npm package](https://img.shields.io/npm/v/npmtest-strftime.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-strftime) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-strftime.svg)](https://travis-ci.org/npmtest/node-npmtest-strftime)
+# npmtest-strftime
+
+#### test coverage for  [strftime (v0.10.0)](http://samhuri.net/proj/strftime)  [![npm package](https://img.shields.io/npm/v/npmtest-strftime.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-strftime) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-strftime.svg)](https://travis-ci.org/npmtest/node-npmtest-strftime)
+
 #### strftime for JavaScript
 
-[![NPM](https://nodei.co/npm/strftime.png?downloads=true)](https://www.npmjs.com/package/strftime)
+[![NPM](https://nodei.co/npm/strftime.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/strftime)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-strftime/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-strftime/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-strftime/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-strftime/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-strftime/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-strftime/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-strftime/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-strftime/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-strftime/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-strftime/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-strftime%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-strftime/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-strftime/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-strftime/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-strftime/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-strftime%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-strftime/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-strftime/build/test-report.html](https://npmtest.github.io/node-npmtest-strftime/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-strftime/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-strftime/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-strftime/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-strftime/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-strftime/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-strftime/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-strftime/build/screenCapture.npmPackageListing.svg)
 
@@ -27,12 +36,10 @@
 
 {
     "author": {
-        "name": "Sami Samhuri",
-        "email": "sami@samhuri.net"
+        "name": "Sami Samhuri"
     },
     "bugs": {
-        "url": "https://github.com/samsonjs/strftime/issues",
-        "email": "sami@samhuri.net"
+        "url": "https://github.com/samsonjs/strftime/issues"
     },
     "contributors": [
         {
@@ -45,7 +52,6 @@
         },
         {
             "name": "Andrew Schaaf",
-            "email": "andrew@andrewschaaf.com",
             "url": "https://github.com/andrewschaaf"
         },
         {
@@ -82,7 +88,6 @@
         },
         {
             "name": "Rob Colburn",
-            "email": "rob@robcolburn.com",
             "url": "https://github.com/robcolburn"
         },
         {
@@ -95,7 +100,6 @@
         },
         {
             "name": "Sami Samhuri",
-            "email": "sami@samhuri.net",
             "url": "https://github.com/samsonjs"
         },
         {
@@ -128,13 +132,11 @@
     "main": "./strftime.js",
     "maintainers": [
         {
-            "name": "sjs",
-            "email": "sami@samhuri.net"
+            "name": "sjs"
         }
     ],
     "name": "strftime",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/samsonjs/strftime.git"
